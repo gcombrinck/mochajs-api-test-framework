@@ -1,0 +1,43 @@
+{
+  "name": "mochajs-api-test-framework",
+  "version": "1.0.0",
+  "description": "Quickstart Test framework for REST APIs",
+  "author": "garth combrinck",
+  "email": "gcombrinck@gmail.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register 'tests/**/**test.js'"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "restapi",
+    "axios",
+    "test framework",
+    "api testing",
+    "regression testing"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chai-url": "^1.0.4",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^7.0.2",
+    "mocha": "^6.2.1",
+    "mochawesome": "^4.1.0",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/runtime": "^7.6.2",
+    "eslint": "^6.5.1"
+  }
+}
