@@ -23,7 +23,7 @@
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "chai-url": "^1.0.4",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-mocha": "^8.0.0",
     "mocha": "^10.2.0",
     "mochawesome": "^4.1.0",
